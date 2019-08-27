@@ -43,3 +43,12 @@ const requestHandler = (req, res) => {
 }
 
 module.exports = requestHandler
+
+/* we can also export multiple values as follows:
+exports.handler = requestHandler
+exports.somethingElse = somethingElse
+
+or 
+
+module.exports = {handler: requestHandler, somethingElse: somethingElse}
+*/
